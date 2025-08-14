@@ -17,41 +17,6 @@ header {
     -1px 1px 0 rgb(255, 255, 255),
     1px 1px 0 rgb(255, 255, 255);
 }
-@media screen and (max-width: 768px) {
-  header {
-    padding: 1em; /* Reducing mobile padding */
-    font-size: 1.5em; /* Adjust mobile font-size */
-  }
-
-  header h1 {
-    font-size: 1.2em; /* Adjust mobile title size */
-  }
-
-  /* Resize mobile images */
-  img {
-    width: 100%; /* Images will occupy the container width */
-    height: auto; /* Keeps the correct image proportions */
-    object-fit: cover; /* Ensures that the picture fits perfectly */
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  body {
-    font-size: 18px;
-  }
-  header {
-    font-size: 1.5em;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  body {
-    font-size: 20px;
-  }
-  header {
-    font-size: 2em;
-  }
-}
 
 .homeimg {
   width: 100%;
